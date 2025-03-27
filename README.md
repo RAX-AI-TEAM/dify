@@ -1,3 +1,12 @@
+- ```cd dify```
+- ```cd docker```
+- นำ .env ที่ให้ มาใส่ใน folder docker
+- ```docker compose up -d```
+- ไปที่ http://localhost
+- อยากเริ่มต้นใหม่ ```docker-compose down --rmi all -v``` + ลบ Project clone ใหม่
+
+----------------------------------------------------------------------------------------------
+
 ![cover-v5-optimized](https://github.com/langgenius/dify/assets/13230914/f9e19af5-61ba-4119-b926-d10c4c06ebab)
 
 <p align="center">
