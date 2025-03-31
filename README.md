@@ -2,9 +2,10 @@
 - ```cd docker```
 - นำ .env ที่ให้ มาใส่ใน folder docker
 - ```docker compose up -d```
-- ไปที่ http://localhost
+- ไปที่ http://localhost:80 or http://localhost
+- หากไม่ขึ้นหรือฟ้องว่า internet error ให้ปิด-เปิดใหม่ ใน docker desktop
+- หากเข้าใช้งานได้แล้ว ให้ไปที่ Tool เพื่อ install OpenAI ก่อน แล้วไปที่ settings->model provider นำ key ของ QpenAI ไปใส่
 - อยากเริ่มต้นใหม่ ```docker-compose down --rmi all -v``` + ลบ Project clone ใหม่
-
 ----------------------------------------------------------------------------------------------
 
 ![cover-v5-optimized](https://github.com/langgenius/dify/assets/13230914/f9e19af5-61ba-4119-b926-d10c4c06ebab)
